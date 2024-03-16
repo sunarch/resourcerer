@@ -38,12 +38,6 @@ function eh_resize() {
     events.push('resize');
 }
 
-function eh_keypress(e) {
-    console.log('event: keypress ' + e.key);
-    console.log(e);
-    events.push(e);
-}
-
 function eh_keydown(e) {
     console.log('event: keydown ' + e.key);
     console.log(e);

@@ -13,9 +13,6 @@
 // You should have received a copy of the GNU Affero General Public License
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-document.onkeypress = function (e) {
-    eh_keypress(e);
-}
 document.onkeydown = function (e) {
     eh_keydown(e);
 }
